@@ -105,8 +105,7 @@ function App() {
     const temtTri = a;
     DrawTriM(temtTri);
 
-    x = [2.29814234, 1.60819472, 0.78693814, -0.0909956382];
-    const xT = [2.29814234, 1.60819472, 0.78693814, -0.0909956382];
+    const xT = x;
     DrawCoef(xT);
 
     const resultsD = document.getElementById('results');
@@ -212,6 +211,9 @@ function App() {
   return (
     <div className="App">
       <div className="input-data">
+        <h2>
+          Predictive model
+        </h2>
         <div className="param">
           <div>
             Number of educated elements
